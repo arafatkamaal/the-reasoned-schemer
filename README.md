@@ -1,44 +1,25 @@
-# logicp
+# The Reasoned Schemer
 
-FIXME: description
+Code from the book reasoned schemer in Clojure.
 
 ## Installation
 
-Download from http://example.com/FIXME.
+All the code is in core.clj. This is so that the entire code is in one place with all dependencies.
+
+One should be able to load the whole code by M-x cider-restart and then M-x cider-refresh
 
 ## Usage
 
-FIXME: explanation
+Go to the end of any s-expression and do a C-x C-e. Assuming you have done the same for definitions above.
 
-    $ java -jar logicp-0.1.0-standalone.jar [args]
+Either way if you do M-x cider-restart and M-x cider-refresh they should get loaded
 
-## Options
+## How much of the reasoned schemer has been covered?
 
-FIXME: listing of options this app accepts.
+The Reasoned Schemer can't be exactly translated to Clojure because there is no 1-1 translation from scheme to Clojure.
 
-## Examples
-
-...
-
-### Bugs
-
-...
-
-### Any Other Sections
-### That You Think
-### Might be Useful
+Plenty of things like dotted pairs, lack of assq etc prevent this. Plus there are other differences highlighted here: https://github.com/clojure/core.logic/wiki/Differences-from-The-Reasoned-Schemer
 
 ## License
 
-Copyright © 2019 FIXME
-
-This program and the accompanying materials are made available under the
-terms of the Eclipse Public License 2.0 which is available at
-http://www.eclipse.org/legal/epl-2.0.
-
-This Source Code may also be made available under the following Secondary
-Licenses when the conditions for such availability set forth in the Eclipse
-Public License, v. 2.0 are satisfied: GNU General Public License as published by
-the Free Software Foundation, either version 2 of the License, or (at your
-option) any later version, with the GNU Classpath Exception which is available
-at https://www.gnu.org/software/classpath/license.html.
+https://dev.perl.org/licenses/artistic.html
